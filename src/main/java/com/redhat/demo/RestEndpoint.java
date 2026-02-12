@@ -10,7 +10,7 @@ import jakarta.ws.rs.core.MediaType;
 public class RestEndpoint {
 
     @Inject
-    PodCheckBean podCheck; // Injecting the EJB locally
+    PodCheck podCheck; // Injecting the EJB locally
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
