@@ -82,6 +82,7 @@
         <profile>
             <id>openshift</id>
             <build>
+                <finalName>ROOT</finalName>
                 <plugins>
                     <plugin>
                         <groupId>org.jboss.eap.plugins</groupId>
